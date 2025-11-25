@@ -1,6 +1,6 @@
 # gla
 ## Overview
-`gla` is a *G*eneric *L*inear *A*lgebra library that aims to leverage Rust's powerful type system to express generic mathematical structures used for linear algebra (matrices, vectors, etc.).
+`gla` is a **G**eneric **L**inear **A**lgebra library that aims to leverage Rust's powerful type system to express generic mathematical structures used for linear algebra (matrices, vectors, etc.).
 
 ## The aim of this project
 `gla`'s main focus is exploring the capabilities and expresiveness of Rust's type system, so do not expect performance comparable to mainstream linear algebra libraries.
