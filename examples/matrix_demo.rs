@@ -1,4 +1,4 @@
-use linear_algebra::*;
+use gla::*;
 pub fn main() {
     let m1 = Matrix3x3::identity();
     println!("m1: \n{m1:?}\n");
