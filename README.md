@@ -6,7 +6,7 @@
 `gla`'s main focus is exploring the capabilities and expresiveness of Rust's type system, so do not expect performance comparable to mainstream linear algebra libraries.
 
 ## Quick Start
-After cloning this repository, you can run the matrix demo with
+After cloning this repository, you can run the matrix demo with:
 ```console
   $ cargo run --example matrix_demo
 ```
@@ -34,4 +34,34 @@ pub fn main() {
     println!("m1 + m2: \n{:?}\n", m1_plus_m2);
     println!("(m1 + m2)^T: \n{:?}", m1_plus_m2.transpose());
 }
+```
+The output will look like this:
+```
+m1: 
+┏                 ┓
+|1.000 0.000 0.000|
+|0.000 1.000 0.000|
+|0.000 0.000 1.000|
+┗                 ┛
+
+m2: 
+┏                 ┓
+|0.000 0.000 2.000|
+|0.000 1.000 0.000|
+|0.000 3.000 0.000|
+┗                 ┛
+
+m1 + m2: 
+┏                 ┓
+|1.000 0.000 2.000|
+|0.000 2.000 0.000|
+|0.000 3.000 1.000|
+┗                 ┛
+
+(m1 + m2)^T: 
+┏                 ┓
+|1.000 0.000 0.000|
+|0.000 2.000 3.000|
+|2.000 0.000 1.000|
+┗                 ┛
 ```
